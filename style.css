@@ -163,7 +163,7 @@ button:hover {
   padding-bottom: 5px;
 }
 
-@media (max-height: 220px) {
+@media (max-height: 200px) {
   .footer {
     position: relative;
   }
