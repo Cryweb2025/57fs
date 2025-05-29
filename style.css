@@ -1,7 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, rgb(231, 228, 228), rgb(175, 175, 182));
+  background-color: #f2f2f2;
+  background-image: url("images/background.svg");
+  background-size: cover;
+  background-position: center fixed;
+  background-repeat: no-repeat;
 }
 
 .roboto-font {
@@ -169,5 +173,16 @@ button:hover {
   }
   .element {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    background-image: none;
+    background: linear-gradient(
+      to right,
+      rgb(234, 234, 238),
+      rgb(147, 147, 180)
+    );
   }
 }
