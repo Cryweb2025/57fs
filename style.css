@@ -163,8 +163,11 @@ button:hover {
   padding-bottom: 5px;
 }
 
-@media (max-height: 425px) {
+@media (max-height: 350px) {
   .footer {
     position: relative;
+  }
+  .element {
+    margin-bottom: 20px;
   }
 }
