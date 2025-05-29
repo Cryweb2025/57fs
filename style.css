@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(231, 228, 228), rgb(175, 175, 182));
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: 100;
+}
+
+.header-box {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  background-color: rgb(34, 32, 32);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-weight: 300 !important;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+
+.element {
+  width: auto;
+  height: auto;
+  background-color: grey;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+
+.element-head {
+  height: 40px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  background-color: rgb(51, 49, 49);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.element-head h4 {
+  color: white;
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.element-content {
+  overflow: hidden;
+  transition: max-height 1.5s ease;
+  max-height: 0;
+}
+
+.element-content.open {
+  max-height: 550px;
+}
+
+.element-footer {
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.text-footer {
+  font-size: 14px;
+  color: white;
+  float: right;
+  padding-right: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background-color: black;
+  display: block;
+  width: auto;
+  border: 1px solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  text-align: center;
+  margin: 5px 2px 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+li a:hover {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+button {
+  width: 160px;
+  height: 20px;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 14px;
+  float: right;
+  margin-right: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(68, 66, 66);
+  bottom: 0;
+  position: fixed;
+}
+
+.footer p {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
