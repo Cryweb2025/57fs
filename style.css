@@ -49,6 +49,10 @@ h1 {
   margin-right: 10px;
   border: 1px solid black;
   border-radius: 6px;
+
+  -moz-box-shadow: 6px 6px 3px #423f3f;
+  -webkit-box-shadow: 6px 6px 3px #423f3f;
+  box-shadow: 6px 6px 3px #423f3f;
 }
 
 .element-head {
