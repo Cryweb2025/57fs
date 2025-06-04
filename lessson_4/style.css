@@ -1,0 +1,73 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #2274a5;
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.container {
+  background-color: #2274a5;
+  height: 450px;
+  width: 94%;
+  /* включаем свойство flex у родителя позиционируемых элементов */
+  display: flex;
+
+  /* ! сво-ва для главной оси */
+  /* * выравнивание по центру по главной оси */
+  justify-content: center;
+  /* * равномерное распределение про-ва между */
+  /* justify-content: space-between; */
+  /* * равномерное распределение про-ва по бокам */
+  /* justify-content: space-evenly; */
+  /* * задаем про-во между элементами */
+  gap: 10px;
+
+  /* ! сво-ва для поперечной оси */
+  /* * выравнивание по центру поперечной */
+  align-items: center;
+  /*flex-direction:column;*/
+}
+
+.item {
+  height: 80px;
+  width: 80px;
+  background-color: #e07a5f;
+  border: 2px solid #7b9e87;
+
+  /* ! задали flex для маленького контейнера */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container-wrap {
+  height: 250px;
+  width: 100%;
+  background-image: url(https://t4.ftcdn.net/jpg/03/86/82/73/240_F_386827376_uWOOhKGk6A4UVL5imUBt20Bh8cmODqzx.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.container-wrap div {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(218, 219, 114);
+  border-radius: 50px;
+}
