@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  background-image: url("img/imagebanner.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0 15px;
+
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: end;
+  gap: 40px;
+}
+
+nav span {
+  color: white;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+nav > div > img {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.logo {
+  height: 32px;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+input:hover {
+  opacity: 1;
+}
+
+div:hover .oscar,
+div:hover .oscar-desc,
+div:hover .play,
+div:hover .play-desc {
+  opacity: 1;
+}
+
+/*------- HOMEWORK LESSON 5 -------*/
+
+.movies {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.movie-card {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  padding-top: 20px;
+}
+
+.movie-card > img {
+  width: 300px;
+}
+
+.movie-rating-good {
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #3bb33a;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  top: 35px;
+  left: 10px;
+}
+
+.movie-rating-bad {
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #ff0000;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  top: 35px;
+  left: 10px;
+}
+
+.tickets {
+  width: 60px;
+  height: 24px;
+  background-color: #ff5502;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 410px;
+  left: 230px;
+  z-index: 1;
+}
+
+.tickets:hover {
+  cursor: pointer;
+}
+
+.tickets a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.tickets a:hover {
+  font-weight: bold;
+}
