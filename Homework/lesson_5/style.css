@@ -83,7 +83,8 @@ div:hover .play-desc {
   width: 300px;
 }
 
-.movie-rating-good {
+.movie-rating-good,
+.movie-rating-bad {
   width: 30px;
   height: 30px;
   color: white;
@@ -100,19 +101,7 @@ div:hover .play-desc {
 }
 
 .movie-rating-bad {
-  width: 30px;
-  height: 30px;
-  color: white;
-  font-size: 14px;
-  font-weight: 400;
   background-color: #ff0000;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  top: 35px;
-  left: 10px;
 }
 
 .tickets {
