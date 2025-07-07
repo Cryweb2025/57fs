@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Homework lesson 13 - Список любимых книг</title>
+  </head>
+  <body>
+    <h1>Список любимых книг</h1>
+    <form class="form" id="form-book" action="">
+      <input type="text" placeholder="Название книги" name="title" required />
+      <input type="text" placeholder="Автор книги" name="author" required />
+      <button>Добавить книгу</button>
+    </form>
+    <div class="book-list">
+      <ul id="list-book"></ul>
+      <button class="clear-btn" id="clear-book-list">Очистить список</button>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>

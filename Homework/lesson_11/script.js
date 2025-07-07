@@ -8,7 +8,7 @@ const starWarsHeroes = [
 
 console.log("##################### Задание 1.2 #####################");
 
-const youngJedi = [...starWarsHeroes.filter((el) => el.age < 40)];
+const youngJedi = [...starWarsHeroes.filter((el) =>el.isJedi && el.age < 40)];
 console.log(youngJedi);
 
 console.log("##################### Задание 1.3 #####################");
