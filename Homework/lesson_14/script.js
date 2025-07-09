@@ -16,5 +16,3 @@ homeWorkPromise
   .catch((err) => {
     console.log(err);
   });
-
-console.log(homeWorkPromise);
